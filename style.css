@@ -1,0 +1,125 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    background-color: rgb(217, 252, 250);
+}
+.header {
+ display: flex;
+ align-items: center;
+border-bottom: 1px solid rgb(64, 53, 66);
+height: 73px;
+background-color: rgb(253, 247, 238);
+
+}
+.header-container {
+
+margin: 0 auto;
+display: flex;
+align-items: center;
+width: 1000px;
+}
+.title {
+    margin-right: 75px;
+    margin-left: 10px;
+    font-size: 18px;
+    font-weight: bold;
+    color: rgb(70, 178, 185);
+}
+.nav {
+font-weight: bold;
+font-size: 18px;
+line-height: 1;
+color: rgb(39, 35, 38)
+}
+.basket {
+    margin-left: auto;
+    font-weight: bold;
+font-size: 18px;
+line-height: 1;
+color: rgb(39, 35, 38)
+}
+.img-logo {
+    width: 45px;
+    display: block;
+}
+.nav-link {
+color: rgb(39, 35, 38);
+text-decoration: none;
+margin-right: 45px;
+}
+.main {
+    width: 1000px;
+    margin: 0 auto;
+    background-color: rgb(217, 252, 250);
+}
+.main-container {
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0;
+    justify-content: space-between;
+  width: 1000px;
+}
+img {
+    
+    display: flex;
+    width: 320px
+}
+.card {
+    display: flex;
+    flex-direction: column;
+    width: 320px;
+    flex-wrap: wrap;
+    justify-content: flex-start; 
+}
+.price {
+    font-size: 20px;
+}
+@media screen and (max-width: 800px) {
+    body {
+        background-color: rgb(150, 199, 196);
+    }
+    .main {
+        width: 800px;
+        background-color: rgb(150, 199, 196);
+    }
+    .main-container {
+        align-items: center;
+        width: 800px;
+    }
+    .header {
+        display: flex;
+        align-items: center;
+       background-color: rgb(253, 247, 238);
+    }
+    .header-container {
+        width: 600px;
+    }
+    .nav {
+        font-weight: bold;
+        font-size: 13px;
+    }
+    .img1 {
+        width: 150px;
+       float: left;
+    }
+    .text {
+        font-size: 13px;
+        display: block;
+        width: 150px;
+    }
+    .card {
+        margin: -7;
+        width: 33%;
+        display: flex;
+        align-items: center;
+    }
+    h2{ 
+        margin-left: 55px;
+    }
+    .price {
+        line-height: 15px;
+     }
+}
